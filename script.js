@@ -3,8 +3,8 @@
 
 // 아래 두 값은 「연습용 방명록」(강사 Supabase)이다. 내 Supabase로 바꾸려면 내 프로젝트 주소와 공개 키를 넣는다.
 // 공개 키는 페이지에 넣어도 되는 키다. 규칙이 허락한 일(읽기·쓰기)만 할 수 있다. 비밀 키는 절대 넣지 않는다.
-const SUPABASE_URL = 'https://vqtsodztsmakplxmoczw.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_p5Dd_oLbxuONpCeaDdgf1A_ALSj8q-0';
+const SUPABASE_URL = 'https://vurhwxovinlzsquzydvk.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_kAuQ299DLTEhijHcmguUCQ_K47LCO94';
 
 const TABLE_URL = SUPABASE_URL + '/rest/v1/guestbook';
 const HEADERS = { apikey: SUPABASE_KEY, 'Content-Type': 'application/json' };
