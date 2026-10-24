@@ -22,12 +22,15 @@
 
   <section class="card">
     <h2>방명록</h2>
-    <input id="nickname" placeholder="별명">
+    <input id="nickname" placeholder="별명" maxlength="20">
     <textarea id="message" placeholder="한마디"></textarea>
     <button id="leave" type="button">남기기</button>
+    <p id="notice" class="notice" hidden></p>
     <ul id="guestbook-list">
-      <li class="empty">아직 글이 없습니다</li>
+      <li class="empty">불러오는 중…</li>
     </ul>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
